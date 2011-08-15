@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * <tt>de_de_uc_alt_gr.xml</tt>
+ *
+ * VKB (Virtual KeyBoard) is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version.
+ *
+ * VKB (Virtual KeyBoard) is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+ * more details.
+ * You should have received a copy of the GNU General Public License along with
+ * VKB (Virtual KeyBoard).  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @author  Tobias Groch <tgroch@stud.hs-bremen.de>
+ * @author  Florian Wolters <flwolters@stud.hs-bremen.de>
+ * @license http://gnu.org/licenses/gpl.txt GNU General Public License
+ * @version SVN: Id:$
+ * @since   File available since Release 1.0.0
+ */
+ -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+  android:keyWidth="6.6%p"
+  android:keyHeight="@dimen/key_height"
+  android:horizontalGap="0px"
+  android:verticalGap="0px">
+
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="94"
+            android:keyEdgeFlags="left"
+            android:keyLabel="°"
+        />
+        <Key android:codes="33" android:keyLabel="!" />
+        <Key android:codes="178" android:keyLabel="²" />
+        <Key android:codes="179" android:keyLabel="³" />
+        <Key android:codes="36" android:keyLabel="$" />
+        <Key android:codes="37" android:keyLabel="%" />
+        <Key android:codes="38" android:keyLabel="&amp;" />
+        <Key android:codes="123" android:keyLabel="{" />
+        <Key android:codes="91" android:keyLabel="[" />
+        <Key android:codes="93" android:keyLabel="]" />
+        <Key android:codes="125" android:keyLabel="}" />
+        <Key android:codes="92" android:keyLabel="\\" />
+        <Key android:codes="96" android:keyLabel="`" />
+        <Key android:codes="-5"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/vkb_backspace"
+            android:keyWidth="14.6%p"
+        />
+    </Row>
+
+    <Row>
+        <Key android:codes="9"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/vkb_tab"
+            android:keyWidth="10.2%p"
+        />
+        <Key android:codes="64" android:keyLabel="\u0040" />
+        <Key android:codes="87" android:keyLabel="W" />
+        <Key android:codes="8364" android:keyLabel="€" />
+        <Key android:codes="82" android:keyLabel="R" />
+        <Key android:codes="84" android:keyLabel="T" />
+        <Key android:codes="90" android:keyLabel="Z" />
+        <Key android:codes="85" android:keyLabel="U" />
+        <Key android:codes="73" android:keyLabel="I" />
+        <Key android:codes="79" android:keyLabel="O" />
+        <Key android:codes="80" android:keyLabel="P" />
+        <Key android:codes="220" android:keyLabel="Ü" />
+        <Key android:codes="126" android:keyLabel="~" />
+        <Key android:codes="10"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/vkb_return"
+            android:keyWidth="10.9%p"
+        />
+    </Row>
+
+    <Row>
+        <Key android:codes="-1"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/vkb_capslock_activ"
+            android:keyWidth="11.9%p"
+        />
+        <Key android:codes="65" android:keyLabel="A" />
+        <Key android:codes="83" android:keyLabel="S" />
+        <Key android:codes="68" android:keyLabel="D" />
+        <Key android:codes="70" android:keyLabel="F" />
+        <Key android:codes="71" android:keyLabel="G" />
+        <Key android:codes="72" android:keyLabel="H" />
+        <Key android:codes="74" android:keyLabel="J" />
+        <Key android:codes="75" android:keyLabel="K" />
+        <Key android:codes="76" android:keyLabel="L" />
+        <Key android:codes="214" android:keyLabel="Ö" />
+        <Key android:codes="196" android:keyLabel="Ä" />
+        <Key android:codes="-259"
+            android:horizontalGap="2.7%"
+            android:keyLabel="\u2191"
+        />
+        <Key android:codes="39"
+            android:horizontalGap="0px"
+            android:keyEdgeFlags="right"
+            android:keyLabel="'"
+        />
+    </Row>
+
+    <Row>
+        <Key android:codes="-130"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/vkb_shift"
+            android:keyWidth="8.05%p"
+        />
+        <Key android:codes="124" android:keyLabel="|" />
+        <Key android:codes="89" android:keyLabel="Y" />
+        <Key android:codes="88" android:keyLabel="X" />
+        <Key android:codes="67" android:keyLabel="C" />
+        <Key android:codes="86" android:keyLabel="V" />
+        <Key android:codes="66" android:keyLabel="B" />
+        <Key android:codes="78" android:keyLabel="N" />
+        <Key android:codes="181" android:keyLabel="µ" />
+        <Key android:codes="59" android:keyLabel=";" />
+        <Key android:codes="58" android:keyLabel=":" />
+        <Key android:codes="95" android:keyLabel="_" />
+        <Key android:codes="-257" android:keyLabel="\u2190" />
+        <Key android:codes="-256" android:keyLabel="\u2193" />
+        <Key android:codes="-258"
+            android:keyEdgeFlags="right"
+            android:keyLabel="\u2192"
+        />
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-129"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="left"
+            android:keyLabel="Strg"
+            android:keyWidth="7.6%p"
+        />
+        <Key android:codes="-2"
+            android:keyLabel="Fn"
+            android:keyWidth="7.6%p"
+        />
+        <Key android:codes="-128"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyLabel="Alt"
+            android:keyWidth="7.6%p"
+        />
+        <Key android:codes="32"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/vkb_space"
+            android:keyWidth="47.9%p"
+        />
+        <Key android:codes="-6"
+            android:keyIcon="@drawable/vkb_altgr_active"
+            android:keyWidth="7.6%p"
+         />
+        <Key android:codes="27" android:keyLabel="Esc" />
+        <Key android:codes="-164"
+            android:keyIcon="@drawable/vkb_de_de"
+            android:keyWidth="7.6%p"
+        />
+        <Key android:codes="-3"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/vkb_done"
+            android:keyWidth="7.6%p"
+        />
+    </Row>
+
+</Keyboard>
