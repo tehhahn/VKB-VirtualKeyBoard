@@ -3,9 +3,9 @@ Virtual KeyBoard (VKB)
 
 Virtual KeyBoard (VKB) is a software keyboard with special function keys (e.g. ALT, CTRL, SHIFT) for the Google Android operating system. It provides three [keyboard layout](http://en.wikipedia.org/wiki/Keyboard_layout)s, each implementing a fully-featured [IBM PC keyboard](http://en.wikipedia.org/wiki/IBM_PC_keyboard):
 
-* QWERTZ keyboard layout used in [http://en.wikipedia.org/wiki/Keyboard_layout#Germany_and_Austria_.28but_not_Switzerland.29](Germany)
-* QWERTY keyboard layout used in [http://en.wikipedia.org/wiki/Keyboard_layout#United_Kingdom](United Kingdom)
-* AZERTY keyboard layout used in [http://en.wikipedia.org/wiki/Keyboard_layout#AZERTY](France)
+* QWERTZ keyboard layout used in [Germany](http://en.wikipedia.org/wiki/Keyboard_layout#Germany_and_Austria_.28but_not_Switzerland.29)
+* QWERTY keyboard layout used in [United Kingdom](http://en.wikipedia.org/wiki/Keyboard_layout#United_Kingdom)
+* AZERTY keyboard layout used in [France](http://en.wikipedia.org/wiki/Keyboard_layout#AZERTY)
 
 System Requirements
 -------------------
@@ -32,11 +32,11 @@ Developing
 
 Virtual KeyBoard (VKB) is developed under the following environment:
 
-* [http://oracle.com/technetwork/java/javase/downloads](Java Platform, Standard Edition (SE) Development Kit (JDK) 7)
-* [http://developer.android.com/sdk](Android SDK Tools, revision 12)
-* [http://developer.android.com/sdk/android-3.0.html](SDK Platform Android 3.0, API 11)
-* [http://eclipse.org/downloads/packages/eclipse-classic-37/indigor](Eclipse Classic 3.7)
-* [http://developer.android.com/sdk/eclipse-adt.html](Android Development Tools (ADT) 12.0.0 Plugin for Eclipse)
-* [http://microsoft.com/windows/windows-7/](Microsoft Windows NT 6.1 ("Microsoft Windows 7"))
+* [Java Platform, Standard Edition (SE) Development Kit (JDK) 7](http://oracle.com/technetwork/java/javase/downloads)
+* [Android SDK Tools, revision 12](http://developer.android.com/sdk)
+* [SDK Platform Android 3.0, API 11](http://developer.android.com/sdk/android-3.0.html)
+* [Eclipse Classic 3.7](http://eclipse.org/downloads/packages/eclipse-classic-37/indigor)
+* [Android Development Tools (ADT) 12.0.0 Plugin for Eclipse](http://developer.android.com/sdk/eclipse-adt.html)
+* [Microsoft Windows NT 6.1 ("Microsoft Windows 7")](http://microsoft.com/windows/windows-7/)
 
 The Eclipse related project files are also included in the Git Repository.
