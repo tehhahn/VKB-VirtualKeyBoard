@@ -140,7 +140,7 @@
             android:isModifier="true"
             android:isSticky="true"
             android:keyEdgeFlags="left"
-            android:keyLabel="Strg"
+            android:keyLabel="Ctrl"
             android:keyWidth="7.6%p"
         />
         <Key android:codes="-2"
